@@ -1,0 +1,19 @@
+
+
+.MainContainer {
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.Form {
+  display: grid;
+  grid-template-columns: 200px 700px;
+}
