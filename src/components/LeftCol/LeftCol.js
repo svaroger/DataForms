@@ -4,14 +4,11 @@ import './LeftCol.css'
 import MyButton from './CustomButton'
 
 
-
 const LeftCol = () => {
 
   return (
 <>
-
     <MyButton />
-
 </>
   );
 }

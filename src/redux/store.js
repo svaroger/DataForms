@@ -6,7 +6,7 @@ const store = createStore(reducer);
 
 
 // store.dispatch(
-//   addForm({name: 'Address', data:[]}),
+//   addForm({name: 'Address'}),
 // );
 
 
