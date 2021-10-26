@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import './HeroSection.css'
-import LeftCol from '../LeftCol/LeftCol'
-import FormCard from '../FormCard/FormCard'
+import SideMenu from '../SideMenu/SideMenu'
+import FormSection from '../FormSection/FormSection'
 
 const HeroSection = () => {
 
   return (
     <div className="MainContainer">
       <div className="Form">
-        <LeftCol />
-        <FormCard />
+        <SideMenu />
+        <FormSection />
       </div>
     </div>
   );

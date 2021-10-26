@@ -5,9 +5,15 @@ import reducer from './reducer';
 const store = createStore(reducer);
 
 
-// store.dispatch(
-//   addForm({name: 'Address'}),
-// );
+store.dispatch(
+  addForm({name: 'Text', formType: 'text'}),
+);
+
+store.dispatch(
+  addForm({name: 'Data', formType: 'data'}),
+);
+
+
 
 
 export default store;

@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
 
-import {ADD_FORM, ADD_FORM_BOX} from './actions';
+import {ADD_FORM} from './actions';
 
 //  Reducer to create new form
 const formReducer = (state = [], action) => {
@@ -10,17 +10,10 @@ const formReducer = (state = [], action) => {
   return state;
 };
 
-//  Reducer to add new html forms
-const formBoxReducer = (state = [], action) => {
-  if (action.type === ADD_FORM_BOX) {
-    return [...state, action.payload]
-  }
-  return state;
-};
+
 
 const reducer = combineReducers({
-  forms: formReducer,
-  formBoxes: formBoxReducer
+  forms: formReducer
 });
 
 export default reducer;
